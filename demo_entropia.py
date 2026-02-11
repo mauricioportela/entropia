@@ -8,7 +8,7 @@ if __name__ == "__main__":
 
     calculadora = Entropia(amostra)
 
-    print("Amostra:", amostra)
+    print("1) Amostra:", amostra)
     print("Frequências:", calculadora.frequencias)
     print("Probabilidades:", calculadora.probabilidades)
     print("Entropia (base 2):", round(calculadora.calcular(base=2), 4), "bits")
