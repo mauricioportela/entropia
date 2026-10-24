@@ -1,10 +1,12 @@
-Legal! Veja como fiz em Python:
-
 """
+
 Entropia de Senha
 -----------------
-Funcao: entropia(senha)
-Parametro: senha (A senha passada para o calculo.)
+
+Funcao:
+    entropia(senha)
+Parametro:
+    senha (A senha passada para o calculo.)
 Retorna:
 
     Valor da Entropia | Categoria
@@ -13,8 +15,11 @@ Retorna:
     25 ate 49         | Senha Fraca
     50 ate 74         | Senha Regular
     maior que 75      | Senha Forte
+
 """
+
 import sys
+
 
 def log2(n):
     v = 0
@@ -23,6 +28,7 @@ def log2(n):
         n /= 2
         v += 1
     return v
+
 
 def entropia(s):
     s = s.strip()
@@ -39,6 +45,7 @@ def entropia(s):
     f += 26 if (b > 0) else 0
     f += 10 if (n > 0) else 0
     return (t * log2(f * 2))
+
 
 if __name__ == '__main__':
     print("PortelaINFO")
