@@ -11,10 +11,10 @@ Retorna:
 
     Valor da Entropia | Categoria
     ------------------+--------------------------
-     0 ate 24         | Senha Pobre
-    25 ate 49         | Senha Fraca
-    50 ate 74         | Senha Regular
-    maior que 75      | Senha Forte
+     0 ate 24         | Senha POBRE
+    25 ate 49         | Senha FRACA
+    50 ate 74         | Senha REGULAR
+    maior que 75      | Senha FORTE
 
 """
 
